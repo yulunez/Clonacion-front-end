@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.father{
+    position: absolute;
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 120vh;
+    top: 0;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.father1{
+    position: relative;
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 70vh;
+    top: 0;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.child1{
+    position: relative;
+    width: 80vw;
+    background-color: rgb(28, 123, 218);
+    height: 100%;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:100%;
+}
+.child2{
+    width: 50vw;
+    background-color: rgb(25, 110, 194);
+    height: 100%;
+    border-bottom-right-radius: 100%;
+    top: 0%;
+    left: -30%;
+
+}
+
+.text{
+    position: relative;
+    width: 700px;
+    height: 75vh;
+    top: 20%;
+    left: 20%;
+}
+
+.ofert{
+    position: relative;
+    max-width: 30vw;
+    height: 75vh;
+    background-image: url(img/juego7.jpg);
+    background-size:cover ;
+    background-position: center;
+    bottom: 42%;
+    left: 130%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+header{
+    position: relative;
+}
+.header-content {
+    position: relative; 
+    z-index: 1; 
+}
+nav{
+    background-color: rgb(49, 87, 255);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10;
+    height: 15vh;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.menu li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s
+
+}
+a{
+    border-radius: 45px; 
+    margin-right: 10px;
+}
+.sing{
+    background-color: #FF5E5E;
+    
+}
+.con{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    top: 100%;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.cuadrado{
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+    margin: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.circulo{
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.trending{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 150%;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.tt{
+    position: absolute;
+    top: 10%;
+    display: flex;
+
+}
+.title{
+    position: relative;
+    right: 140%;
+}
+.shop{
+    position: relative;
+    left: 100%;
+    width: 100px;
+    background-color: #FF5E5E;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 45px;
+    height: auto;
+}
+.tg{
+    position: relative;
+    width: 65vw;
+    height: 45vh;
+    background-color: lightgrey;
+    margin: 1rem;
+    top: 22%;
+    right: 10%;
+    border-radius: 10%;
+}
+
+.ft1{
+    background-image: url(img/juego1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 66%;
+    border-radius: 10%;
+}
+.ft2{
+    background-image:url(img/juego2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 66%;
+    border-radius: 10%;
+}
+.ft3{
+    background-image: url(img/juego3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 66%;
+    border-radius: 10%;
+}
+.ft4{
+    background-image: url(img/juego4.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 66%;
+    border-radius: 10%;
+}
+
+.precio{
+    position: relative;
+    background-color: #00a9ff;
+    width: 80px;
+    height: auto;
+    bottom: 60%;
+    left: 60%;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.logo{
+    position: absolute;
+    background-color: #FF5E5E;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    bottom: 10px;
+    right: 3%;
+}
+
+.top{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 230%;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 10%;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-radius: 100px;
+}
+.tt2{
+    position: absolute;
+    top: 30%;
+    display: flex;
+}
+
+.logo2{
+    position: absolute;
+    background-color: #FF5E5E;
+    color: white;
+    width: 70%;
+    height: 15%;
+    border-radius: 20px;
+    top: 90%;
+    right: 15%;
+    text-align: center;
+    padding-top: 8%;
+}
+.title2{
+    position: relative;
+    right: 180%;
+}
+.shop2{
+    position: relative;
+    left: 110%;
+    width: 100px;
+    background-color: #FF5E5E;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 45px;
+    height: auto;
+}
+
+.categories{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 350%;
+    padding-left: 15%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pt{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.tt3{
+    position: absolute;
+    left: 42.5%;
+    top: 15%;
+}
+
+.cg{
+    position: relative;
+    width: 65vw;
+    height: 35vh;
+    background-color: dodgerblue;
+    margin: 1rem;
+    top: 5%;
+    right: 10%;
+    border-radius: 10%;
+    color: white;
+    padding-top: 2%;
+}
+
+.ct{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    border-radius: 10%;
+    bottom: -17%;
+}
+
+.ct1{
+    background-image: url(img/juego1.jpg);
+}
+.ct2{
+    background-image: url(img/juego3.jpg);
+}
+.ct3{
+    background-image: url(img/juego7.jpg);
+}
+.ct4{
+    background-image: url(img/juego2.jpg);
+}
+.ct5{
+    background-image: url(img/juego2.jpg);
+}
+
+.otros{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 450%;
+    padding-left: 15%;
+    align-items: center;
+    text-align: center;
+}
+.sus{
+    position: relative;
+    background-color: lightgray;
+    width: 35%;
+    height: 85%;
+    left: 0%;
+    top: 10%;
+    border-radius: 20px;
+}
+.pt2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+p{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 45px;
+}
+.lorem{
+    font-size: 15px; 
+    color: gray;
+    top: 70%;
+
+}
+.suss{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    bottom: -70%;
+}
+.email{
+    position: relative;
+    padding: 20px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    width: 70%;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+    border-right: none; 
+    left: 8%;
+}
+.susbtn{
+    position: relative;
+    background-color: #FF5E5E;
+    color: white;
+    border: none;
+    height: 10%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    right: 8%;
+}
+.ourshop{
+    position: relative;
+    background-color: lightgray;
+    width: 35%;
+    height: 85%;
+    right: 18%;
+    border-radius: 20px;
+}
+.shopbtn{
+    position: relative;
+    background-color: #FF5E5E;
+    color: white;
+    top: 84%;
+    left: 10%;
+    width: 120px;
+    height: 55px;
+    padding-top: 18px;
+    border-radius: 30px;
+}
+.imgf{
+    position: absolute;
+    background-image: url(img/juego6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 85%;
+    bottom: 20%;
+    left: 30%;
+    border-radius: 45px;
+}
+
+.bottom{
+    position: absolute;
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 20vh;
+    top: 550%;
+    border-top-left-radius:20%;
+    border-top-right-radius:20%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.child3{
+    position: relative;
+    width: 80vw;
+    background-color: rgb(28, 123, 218);
+    height: 100%;
+    border-top-left-radius:20%;
+    border-top-right-radius:100%;
+}
+.child4{
+    width: 50vw;
+    background-color: rgb(25, 110, 194);
+    height: 100%;
+    border-top-right-radius: 100%;
+    top: 500%;
+    left: -30%;
+}
+
+.titlepage{
+    position: relative;
+    color: white;
+    top: 50%;
+    left: 85%;
+    font-size: 50px;
+}
+.direc{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    top: 65%;
+    left: 90%;
+}
+.cat{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 20px;
+}
+.catbtn{
+    position: relative;
+    background-color: #FF5E5E;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.sec{
+    position: relative;
+    display: flex;
+    left: 10%;
+    margin-top: 10px;
+}
+.sec1{
+    margin-top: 105px;
+}
+
+.numcont{
+    display: flex;
+    position: relative;
+    top: 170%;
+    justify-content: center;
+    gap: 5%;
+}
+
+.num{
+    background-color: lightgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 1.1%;
+}
+.num1{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.comjuego{
+    display: flex;
+    flex-direction: row;
+}
+
+.juego{
+    position: relative;
+    margin: 75px;
+    background-image: url(img/juego5.jpg);
+    background-size: contain;
+    width: 550px;
+    height: 550px;
+    border-radius: 45px;
+}
+
+.compra{
+    position: relative;
+    margin: 75px;
+    width: 700px;
+}
+
+.infojuego{
+    display: flex;
+    position: absolute;
+    top: 170%;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    background-color: lightgrey;
+    margin: 75px;
+    border-radius: 45px;
+}
+.description{
+    position: relative;
+    color: dodgerblue;
+    font-size: 30px;
+    left: 10%;
+    height: 35px;
+    border-right: 2px solid black;
+    padding-right: 2%;
+    margin-top: 2%;
+}
+.reviews{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    left: 10%;
+    height: 35px;
+    width: 40px;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.td{
+    position: relative;
+    font-size: 15px;
+    font-weight: normal;
+    top: 15%;
+    right: 17%;
+}
+h2{
+    color: dodgerblue;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about{
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+    left: 0%;
+}
+.reacom{
+    display: flex;
+    position: relative;
+    top: 35%;
+    left: -30%;
+}
+.cant{
+    width: 100px;
+    height: 50px;
+    border-radius: 45px;
+    text-align: center;
+}
+.combtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 45px;
+    background-color: #FF5E5E;
+    text-align: center;
+    color: white;
+    padding-top: 2.2%;
+    margin-left: 20px;
+}
+.more{
+    display: flex;
+    position: relative;
+    top: 45%;
+    left: -29%;
+}
+.etiquetas{
+    width: 140px;
+    color: gray;
+}
+.etiquetas2{
+    color: dodgerblue;
+}
+.categories2{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 250%;
+    padding-left: 15%;
+    align-items: center;
+    text-align: center;
+
+}
+.shop3{
+    position: relative;
+    left: 490%;
+    width: 150px;
+    background-color: #FF5E5E;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    border-radius: 45px;
+    height: 50px;
+}
+.pt2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.tt4{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.texto{
+    background-color: lightgray;
+    position: absolute;
+    left: 0%;
+    padding: 55px;
+    margin: 45px;
+    height: 85%;
+    width: 45%;
+    border-radius: 45px;
+}
+.hello{
+    position: relative;
+    top: 10%;
+    font-size: 50px;
+}
+.contdatos{
+   position: relative;
+   top: 35%;
+   height: 50px;
+}
+.datos{
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.contacto{
+    position: absolute;
+    right: 0%;
+    padding: 45px;
+    margin: 45px;
+    height: 95%;
+    width: 45%;
+    border-radius: 45px;
+   justify-content: center;
+}
+
+.direccion{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    background-image: url(img\mapa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 45px;
+    top: 0%;
+}
+.deta{
+    width: 45%;
+    height: 50px;
+    border-radius: 45px;
+    text-align: center;
+    margin: 1%;
+}
+
+.deta5{
+    width: 92%;
+    height: 100px;
+}
+
+.enviar{
+    width: 200px;
+    height: 50px;
+    border-radius: 45px;
+    background-color: #FF5E5E;
+    text-align: center;
+    color: white;
+    padding-top: 2.2%;
+    margin-left: 20px;
+}
+.suss2 {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    top: 50%;
+}
+.hello2 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.about2 {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.email2 {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    margin: 20px;
+}
+.susbtn2 {
+    border: none;
+    padding: 10px 20px;
+    background-color: #FF3E41; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.susbtn2:hover {
+    background-color: dodgerblue;
+}
+
+.textc{
+    position: relative;
+    top: 153%;
+    width: 127%;
+    height: 5%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
